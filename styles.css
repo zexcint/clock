@@ -16,7 +16,7 @@
   height: 100vh;
   display: grid;
   place-items: center;
-  grid-template-rows: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-rows: repeat(3, 1fr);
   overflow: auto;
   background: var(--background);
   gap: 1rem;
