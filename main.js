@@ -59,7 +59,7 @@ setInterval(() => {
   $clockMinutes.style.transform = `rotate(${minuteAngles[currentMinutes]}deg)`
   $clockHours.style.transform = `rotate(${hourAngles[currentHours] + minuteScale[currentMinutes]}deg)`
 
-  $(".input-1").textContent = currentSeconds
-  $(".input-2").textContent = currentMinutes
-  $(".input-3").textContent = currentHours
+  $(".info-1").textContent = currentSeconds
+  $(".info-2").textContent = currentMinutes
+  $(".info-3").textContent = currentHours
 }, 1000)
